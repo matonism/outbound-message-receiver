@@ -1,0 +1,15 @@
+{
+  "name": "outbound-message-receiver",
+  "version": "1.0.0",
+  "description": "server to handle Salesforce outbound messages",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/matonism/outbound-message-receiver"
+  },
+  "author": "Michael Matonis",
+  "license": "ISC"
+}
