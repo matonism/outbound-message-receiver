@@ -1,0 +1,18 @@
+To Use:
+
+Salesforce:
+Create Salesforce outbound message with a minimum of two fields
+ - Id (This will exist by default)
+ - Payload__c
+
+Set enpoint to ngrok url routed to the /obm directory
+ - ex: https://9b6d6a1d.ngrok.io/obm
+
+Trigger the outbound message using a Workflow Action
+
+Node: 
+Install required packages using "npm install <package-name>"
+Install ngrok
+	- run "ngrok.exe http 80"
+
+run "node app.js"
