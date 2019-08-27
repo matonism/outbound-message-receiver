@@ -4,9 +4,11 @@ var router = express.Router();
 
 router.post('/', function(req, res) {
   console.log('in obm.js');
-
+  // console.dir(req);
   // get the obm as an object
+  // console.log(JSON.stringify(req.body));
   var message = unwrapMessage(req.body);
+
 
   if (!_.isEmpty(message)) {
     // some something #awesome with message
